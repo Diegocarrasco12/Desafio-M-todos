@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio Metodos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <input type="text" id="nuevaTarea" placeholder="Nueva tarea">
+        <button id="agregarTarea">Agregar</button>
+        <div class="task-count">
+            <p>Total: <span id="cuentaTareas">0</span></p>
+            <p>Realizadas: <span id="cuentaRealizadas">0</span></p>
+        </div>
+        <div class="task-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tarea</th>
+                        <th>Realizada</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody id="tareas">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="assets/js/js.js"></script>
+</body>
+</html>
